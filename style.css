@@ -23,15 +23,12 @@ font-style: normal;
 }
 
 html{
-	background-image: url(assets/base.png);
+	
 	width: 1280px; /* Ширина элемента в пикселах */
-	height: 3595px;
     margin: auto; /* Выравниваем по центру */   
 }
 body{
-
 	width: inherit; /* Ширина элемента в пикселах */
-	height: inherit;
 	margin:auto;
 }
 header{
@@ -240,7 +237,7 @@ div.design{
 		margin-top: 36px;
 		width: 435px;
 		margin-left: 2px;
-
+		border-radius: 3px;
 		font-family:MyWebFont_normal;
 		color: #373737;
 		font-size: 12px;
@@ -386,6 +383,7 @@ div.subscribe{
 		border-color: transparent;;
 		font-size: 16px;
 		letter-spacing:2.5px;
+		border-radius: 1px;
 		font-family:MyWebFont_medium;
 
 		color: #373737;
@@ -393,7 +391,7 @@ div.subscribe{
 
 	.subscribe button{
 		position: relative;
-		
+		border-radius: 1px;
 		left: -4px;
 		background-color:#16A085;
 		border-color: transparent;
@@ -450,6 +448,7 @@ div.download{
 		padding: 0px;
 		margin-right: 22px;
 		text-align: left;
+		border-radius: 3px;
 	}
 	.download button:hover{
 		background-color:#16A085;
