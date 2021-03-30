@@ -516,6 +516,9 @@ footer{}
 		left:1098px;
 		top:-70px;
 	}
+	footer div{
+		color: #1ABC9C;
+	} 
 
 .bottZero{
 	margin-bottom: 0px;
